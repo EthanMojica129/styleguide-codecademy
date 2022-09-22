@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    text-align: center;
+    margin: 20px auto;
+}
+.container{
+    border: grey solid 5px;
+    margin: 20px auto;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+}
+.container h2{
+    margin: 25px 25px;
+}
+.box{
+    border: solid 1px;
+    color: #000;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px 25px;
+}
+.Mountain{
+    border-color: #3AB795;
+    background-color: #3AB795;
+    width: 25%;
+    height: 25%;
+}
+.Celadon{
+    border-color:#A0E8AF;
+    background-color:#A0E8AF;
+    width: 25%;
+    height: 25%;
+
+}
+.Eton{
+    border-color:#86baa1;
+    background-color: #86baa1;
+    width: 25%;
+    height: 25%;
+
+}
+.Beige{
+    border-color:#edead0;
+    background-color: #EDEAD0;
+    width: 25%;
+    height: 25%;
+
+}
+.Maize{
+    border-color:#FFCF56;
+    background-color: #FFCF56;
+    width: 25%;
+    height: 25%;
+}
+.crate{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;
+    padding:40px;
+}
+.crate p, .crate h3{
+    margin: 20px auto;
+    text-align: justify;
+}
+.crate h3{
+    text-decoration: underline;
+    font-weight: normal;
+}
+.italics{
+    font-style: italic;
+}
+.emphasize{
+    font-weight:bold;
+}
+.Nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+}
+.Source{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+.Poppins{
+    font-family:  'Poppins', sans-serif; 
+}
+
+.text-panel{
+    margin: 40px;
+}
+.text-panel h2{
+    margin-left: -1px;
+}
+.text-panel h1, .text-panel h2, .text-panel .Tp{
+    text-align: left;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-panel .Tp {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
